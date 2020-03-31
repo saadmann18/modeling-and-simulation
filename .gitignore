@@ -67,7 +67,7 @@ Thumbs.db
 # Log files
 *.log
 
-# Output and results directories
+# Output and results directories (but allow individual image files)
 results/
 output/
 figures/
@@ -81,3 +81,9 @@ MaS_handouts.pdf
 
 # MATLAB workspace files
 *.mat
+
+# Image files are allowed for exercise results
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
